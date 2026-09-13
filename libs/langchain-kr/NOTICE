@@ -1,0 +1,15 @@
+langchain_kr
+============
+
+이 패키지는 아래 프로젝트에서 파생되었습니다.
+
+    langchain-teddynote 0.3.44
+    Copyright (c) Teddy Lee <teddylee777@gmail.com>
+    https://github.com/teddylee777/langchain-teddynote
+    Licensed under the Apache License, Version 2.0 (LICENSE 파일 참고)
+
+변경 사항 (langchain-kr 저장소, LangChain 1.x 마이그레이션):
+  * messages.py             : ToolAgentAction 임포트를 langchain_classic 으로 이전
+  * document_compressors/   : BaseDocumentCompressor 를 langchain_core.documents.compressor 에서 임포트
+  * document_loaders/hwp.py : Document / BaseLoader 를 langchain_core 에서 임포트
+  * korean.py               : 원격 GitHub fetch 제거, 불용어 목록을 패키지에 내장
