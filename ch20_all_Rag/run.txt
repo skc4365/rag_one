@@ -1,0 +1,3 @@
+(.venv) E:\hanwh2609\rag_one>uvicorn ch20_all_Rag.fast_main:app --reload 
+
+(.venv) E:\hanwh2609\rag_one>streamlit run ch20_all_Rag\st_app.py

@@ -1,0 +1,53 @@
+STEP 01 · 56h
+AI 서비스 백엔드 프로그래밍 실무
+    - 학습 내용
+        파이썬 기본 문법
+        클래스 · 데코레이터 · 예외 처리 · 로깅
+        async/await 및 asyncio 비동기 프로그래밍
+        Pydantic BaseModel 데이터 검증
+        FastAPI RESTful API 설계
+        FastAPI 심화 기능 및 Streamlit UI 연동
+
+STEP 02 · 24h
+AI-Native 아키텍처 및 테스트 공학
+    - 학습 내용
+        AI-Native 애플리케이션 아키텍처와 설계 원칙
+        Prompt 설계 · Context 구성 · Harness 엔지니어링 및 LLM 출력 검증
+
+STEP 03 · 32h
+LLM 오케스트레이션 및 파이프라인 구축
+    - 학습 내용
+        LangChain LCEL 기본 오케스트레이션 체인
+        임베딩 모델 선택 · 차원 · 성능 비교 및 Chunking 전략
+        Chroma · FAISS 벡터 DB 임베딩 적재 및 RAG 파이프라인 통합
+
+STEP 04 · 40h
+실무형 RAG 시스템 구축 및 최적화
+    - 학습 내용
+        Advanced RAG 검색 품질 진단 및 성능 분석
+        Multi-Query · Rewriting으로 질의 재작성 및 검색 재현율 향상
+        하이브리드 검색 원리 및 실습 : Parent Document Retriever · Self-RAG 및 RAG 품질 평가
+        
+STEP 05 · 40h
+AI 에이전트 기획 및 툴 연동 실무
+    - 학습 내용
+        에이전트 관찰 → 판단 → 행동 루프 및 설계 원리
+        Function Calling으로 Tool 정의 · 연동 구현
+        MCP(Model Context Protocol)로 도구 · 데이터 소스 표준 연결
+        프롬프트 체이닝 · 라우팅 · 병렬처리 등 Agent Pattern 구현
+
+STEP 06 · 32h
+멀티 에이전트 제어 및 파이프라인 자동화
+    - 학습 내용
+        LangGraph의 State · Node · Edge로 그래프 기반 워크플로우 설계
+        조건 분기와 순환(Cyclic) 그래프로 제어 흐름 구축
+        MCP(Model Context Protocol)로 도구 · 데이터 소스 표준 연결
+        Human-in-the-Loop(HITL) 구현 및 멀티 에이전트 그래프 설계 · 구현
+
+STEP 07 · 40h
+엔터프라이즈 AI 에이전트 배포 및 상용화
+    - 학습 내용
+        GitHub 협업 버전 관리 워크플로우
+        클린 아키텍처 원칙으로 AI 모듈 설계
+        TDD(테스트 주도 개발) 실습
+        SDD(스킬 주도 개발) 방법론 실습 및 AI 모듈 설계
